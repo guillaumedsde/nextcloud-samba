@@ -7,7 +7,7 @@ build:
   stage: build
   variables:
     DOCKER_BUILDKIT: "1"
-    IMAGE_NAME: guillaumedsde/nextcloud
+    IMAGE_NAME: guillaumedsde/nextcloud-samba
     OFFICIAL_TAG: 22-apache
   services:
     - docker:20-dind
