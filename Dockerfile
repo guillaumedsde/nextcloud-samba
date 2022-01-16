@@ -5,12 +5,10 @@ FROM nextcloud:${OFFICIAL_TAG}
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
-    && apt install -y \
+    && apt-get install -y \
     procps \
     smbclient \
     libsmbclient-dev \
-    php-imagick \
-    imagemagick \
     && pecl install smbclient \
     && docker-php-ext-enable smbclient \
     && echo "extension=smbclient.so" > /usr/local/etc/php/conf.d/docker-php-ext-smbclient.ini \
