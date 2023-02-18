@@ -1,6 +1,6 @@
-ARG OFFICIAL_TAG 22-apache
+ARG OFFICIAL_TAG 25-apache
 
-FROM nextcloud:${OFFICIAL_TAG}
+FROM docker.io/nextcloud:${OFFICIAL_TAG}
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -12,4 +12,5 @@ RUN apt-get update \
     && pecl install smbclient \
     && docker-php-ext-enable smbclient \
     && echo "extension=smbclient.so" > /usr/local/etc/php/conf.d/docker-php-ext-smbclient.ini \
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
