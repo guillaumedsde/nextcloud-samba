@@ -1,6 +1,4 @@
-ARG OFFICIAL_TAG 25-apache
-
-FROM docker.io/nextcloud:${OFFICIAL_TAG}
+FROM nextcloud:25-apache
 
 ARG DEBIAN_FRONTEND=noninteractive
 
