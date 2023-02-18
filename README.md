@@ -1,11 +1,11 @@
 # 🐋 + ☁️ guillaumedsde/nextcloud-samba
 
-[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/guillaumedsde/nextcloud)](https://hub.docker.com/r/guillaumedsde/nextcloud)
-[![Docker Pulls](https://img.shields.io/docker/pulls/guillaumedsde/nextcloud)](https://hub.docker.com/r/guillaumedsde/nextcloud)
-[![GitHub stars](https://img.shields.io/github/stars/guillaumedsde/nextcloud?label=Github%20stars)](https://github.com/guillaumedsde/nextcloud)
-[![GitHub watchers](https://img.shields.io/github/watchers/guillaumedsde/nextcloud?label=Github%20Watchers)](https://github.com/guillaumedsde/nextcloud)
-[![Docker Stars](https://img.shields.io/docker/stars/guillaumedsde/nextcloud)](https://hub.docker.com/r/guillaumedsde/nextcloud)
-[![GitHub](https://img.shields.io/github/license/guillaumedsde/nextcloud)](https://github.com/guillaumedsde/nextcloud/blob/master/LICENSE.md)
+[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/guillaumedsde/nextcloud-samba)](https://hub.docker.com/r/guillaumedsde/nextcloud-samba)
+[![Docker Pulls](https://img.shields.io/docker/pulls/guillaumedsde/nextcloud-samba)](https://hub.docker.com/r/guillaumedsde/nextcloud-samba)
+[![GitHub stars](https://img.shields.io/github/stars/guillaumedsde/nextcloud-samba?label=Github%20stars)](https://github.com/guillaumedsde/nextcloud-samba)
+[![GitHub watchers](https://img.shields.io/github/watchers/guillaumedsde/nextcloud-samba?label=Github%20Watchers)](https://github.com/guillaumedsde/nextcloud-samba)
+[![Docker Stars](https://img.shields.io/docker/stars/guillaumedsde/nextcloud-samba)](https://hub.docker.com/r/guillaumedsde/nextcloud-samba)
+[![GitHub](https://img.shields.io/github/license/guillaumedsde/nextcloud-samba)](https://github.com/guillaumedsde/nextcloud-samba/blob/master/LICENSE.md)
 
 Nextcloud docker image with SAMBA client and other dependencies installed.
 
@@ -26,4 +26,4 @@ This container is built for many hardware platforms (yes, even ppc64le whoever u
 - linux/ppc64le
 - linux/s390x
 
-All you have to do is use a recent version of docker and it will pull the appropriate version of the image [guillaumedsde/nextcloud](https://hub.docker.com/repository/docker/guillaumedsde/nextcloud) from the docker hub.
+All you have to do is use a recent version of docker and it will pull the appropriate version of the image [guillaumedsde/nextcloud-samba](https://hub.docker.com/repository/docker/guillaumedsde/nextcloud-samba) from the docker hub.
