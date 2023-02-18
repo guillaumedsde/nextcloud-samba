@@ -4,9 +4,9 @@ FROM docker.io/nextcloud:${OFFICIAL_TAG}
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-# hadolint ignore=DL3008
+# hadolint ignore=DL3008,DL3015
 RUN apt-get update \
-    && apt-get install --yes --no-install-recommends \
+    && apt-get install --yes\
     procps \
     smbclient \
     libsmbclient-dev \
