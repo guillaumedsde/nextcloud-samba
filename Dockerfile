@@ -1,4 +1,4 @@
-FROM docker.io/nextcloud:26.0.2-apache
+FROM docker.io/nextcloud:27.0.0-apache
 
 ARG DEBIAN_FRONTEND=noninteractive
 
